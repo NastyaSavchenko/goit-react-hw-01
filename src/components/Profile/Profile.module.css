@@ -1,0 +1,65 @@
+.profile {
+  width: 400px;
+  border-radius: 10px;
+  border: solid 2px black;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+  background-color: rgb(37, 37, 38);
+}
+
+.name {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.7;
+}
+
+.info {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+
+  color: #747171;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  border-top: solid 2px #706e6e;
+  background-color: #b9b3b361;
+}
+
+.stats > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.7;
+}
+
+.stats > li:not(:last-child) {
+  border-right: solid 2px #706e6e;
+}
+
+.statsName {
+  font-size: 25px;
+  font-weight: 300;
+  color: black;
+}
