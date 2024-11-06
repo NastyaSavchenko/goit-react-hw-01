@@ -1,0 +1,25 @@
+.imgWrapp {
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  min-width: 100px;
+}
+
+.name {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.statusOnline {
+  color: green;
+}
+
+.statusOffline {
+  color: red;
+}
